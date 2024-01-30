@@ -343,16 +343,6 @@ textarea:focus,input:focus {
   top: 80px;
   transition: .2s
 }
-
-.nav-default-header__bounds {
-  display: flex;
-  height: 100%;
-  justify-content: space-between;
-  margin: 0 auto;
-  align-items: center;
-  gap: 15px
-}
-
 .image-category img {
   width: 100%
 }
@@ -382,22 +372,6 @@ textarea:focus,input:focus {
   .ui-search-toolbar .ui-search-modal__icon svg {
       fill: #fff !important
   }
-}
-
-.nav-default-header__bounds .nav-default-header__title {
-  align-items: center;
-  display: flex;
-  justify-content: center
-}
-
-.nav-default-header__bounds .nav-default-header__logo {
-  align-items: center;
-  color: #000 !important;
-  display: flex;
-  font-size: 18px;
-  font-weight: 700;
-  position: relative;
-  text-decoration: none
 }
 
 .nav-default-header__bounds .nav-default-list {
@@ -456,10 +430,6 @@ textarea:focus,input:focus {
   .nav-default-header__bounds .nav-default-header__nav-icons .show-cart-badge-icon+.header--custom-svg {
       margin-top:10px
   }
-}
-
-.nav-logo-float-left .nav-default-header__bounds {
-  flex-direction: row
 }
 
 .nav-logo-float-left .nav-default-header__bounds .nav-default-list {
@@ -3092,12 +3062,6 @@ span.legend-footer__category.header--custom-text:nth-child(2) {
       max-height: 1000px
   }
 
-  .nav-default-header__bounds.nav-default__top {
-      display: grid;
-      grid-template-areas: "logo icons" "search search";
-      padding: 15px 0
-  }
-
   .nav-default-header__title {
       gap: 10px;
       grid-area: logo
@@ -3343,11 +3307,6 @@ span.legend-footer__category.header--custom-text:nth-child(2) {
 
 .legend-footer__contact-col.legend-footer__contact-payment {
   margin-top: 25px
-}
-
-.nav-default-header__bounds,.component-wrapper .content-list__container__2-elements,.component-wrapper .content-list__container__3-elements,.component-wrapper .content-list__container__4-elements,.category-feed {
-  max-width: 1300px !important;
-  width: calc(100% - 20px) !important
 }
 
 .andes-carousel-snapped__control svg,.andes-carousel-snapped__control svg path {
@@ -3972,7 +3931,7 @@ p.ui-pdp-family--REGULAR.ui-pdp-media__title,a.ui-pdp-action-modal__link.ui-pdp-
 }
 
 .home.home--explorer .slider .prev-button:hover,.home.home--explorer .slider .next-button:hover {
-  background: #ff8f2c
+  background: #042d5a
 }
 
 .home.home--explorer .slider .prev-button:before,.home.home--explorer .slider .prev-button:after,.home.home--explorer .slider .next-button:before,.home.home--explorer .slider .next-button:after {
@@ -4020,7 +3979,7 @@ p.ui-pdp-family--REGULAR.ui-pdp-media__title,a.ui-pdp-action-modal__link.ui-pdp-
 
   .mshops-recommendations-wrapper .row.container .section-header .section-header__title--base,.section-category__title {
       color: #252525;
-      border-bottom: 2px solid #ff8f2c;
+      border-bottom: 2px solid #042d5a;
       text-align: left;
       margin: 0 auto -1px 0;
       font: normal normal bold 24px/33px 'Jost' !important
@@ -4619,7 +4578,7 @@ textarea:focus,input:focus {
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
-  gap: 15px
+  gap: 15px;
 }
 
 .image-category img {
@@ -4666,7 +4625,8 @@ textarea:focus,input:focus {
   font-size: 18px;
   font-weight: 700;
   position: relative;
-  text-decoration: none
+  text-decoration: none;
+  width: 100px;
 }
 
 .nav-default-header__bounds .nav-default-list {
@@ -7395,7 +7355,9 @@ span.legend-footer__category.header--custom-text:nth-child(2) {
 
   .nav-default-header__bounds.nav-default__top {
       display: grid;
-      grid-template-areas: "logo icons" "search search";
+      grid-template-areas:
+          "logo icons"
+          "search search";
       padding: 15px 0
   }
 
@@ -8282,7 +8244,7 @@ p.ui-pdp-family--REGULAR.ui-pdp-media__title,a.ui-pdp-action-modal__link.ui-pdp-
 }
 
 .home.home--explorer .slider .prev-button:hover,.home.home--explorer .slider .next-button:hover {
-  background: #ff8f2c
+  background: #042d5a
 }
 
 .home.home--explorer .slider .prev-button:before,.home.home--explorer .slider .prev-button:after,.home.home--explorer .slider .next-button:before,.home.home--explorer .slider .next-button:after {
@@ -8330,7 +8292,7 @@ p.ui-pdp-family--REGULAR.ui-pdp-media__title,a.ui-pdp-action-modal__link.ui-pdp-
 
   .mshops-recommendations-wrapper .row.container .section-header .section-header__title--base,.section-category__title {
       color: #252525;
-      border-bottom: 2px solid #ff8f2c;
+      border-bottom: 2px solid #042d5a;
       text-align: left;
       margin: 0 auto -1px 0;
       font: normal normal bold 24px/33px 'Jost' !important
