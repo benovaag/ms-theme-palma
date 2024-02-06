@@ -354,15 +354,6 @@ textarea:focus,input:focus {
 }
 
 @media screen and (max-width: 1025px) {
-  .categories-container {
-      max-height:100px;
-      overflow: hidden;
-      transition: ease-in-out .3s
-  }
-
-  .header-wrapper.scroll .categories-container {
-      max-height: 0
-  }
 
   .ui-search-toolbar .ui-search-modal__link {
       color: #fff;
@@ -4598,10 +4589,6 @@ textarea:focus,input:focus {
       transition: ease-in-out .3s
   }
 
-  .header-wrapper.scroll .categories-container {
-      max-height: 0
-  }
-
   .ui-search-toolbar .ui-search-modal__link {
       color: #fff;
       background: #15aaa7
@@ -4626,7 +4613,12 @@ textarea:focus,input:focus {
   font-weight: 700;
   position: relative;
   text-decoration: none;
-  width: 100px;
+}
+
+@media(max-width: 1025px) {
+  .nav-default-header__bounds .nav-default-header__logo {
+    width: 100px;
+  }  
 }
 
 .nav-default-header__bounds .nav-default-list {
@@ -8410,7 +8402,7 @@ span.ui-search-item__group__element.shops__items-group-details.ui-search-install
 
 .mshops-recommendations-wrapper .ui-item .ui-item__content .ui-item__price-block:after,.ui-search-item__group--price:after,.ui-recommendations-card__title:after {
   content: "Comprar";
-  border: 1px solid #41444b;
+  border: 1px solid #0D2036;
   background: #fff;
   text-align: center;
   margin: 0 auto;
@@ -8446,8 +8438,8 @@ span.ui-search-item__group__element.shops__items-group-details.ui-search-install
 }
 
 .mshops-recommendations-wrapper .ui-item:hover .ui-item__price-block:after,.ui-search-layout__item:hover .ui-search-item__group--price:after {
-  background: #000;
-  border: 1px solid #000;
+  background: #0D2036;
+  border: 1px solid #0D2036;
   color: #fff !important
 }
 
