@@ -3611,10 +3611,6 @@ button.andes-carousel-snapped__control:hover {
 }
 
 @media(min-width: 1026px) {
-  .component-wrapper:nth-child(5) {
-      margin:80px 0
-  }
-
   .carousel__container-3.carousel__container .carousel__container-body {
       max-width: 1300px;
       width: calc(100% - 20px)
@@ -3630,12 +3626,6 @@ button.andes-carousel-snapped__control:hover {
   .carousel-mobile {
       margin-bottom: -90px
   }
-}
-
-.component-wrapper:nth-child(5) {
-  display: block !important;
-  background: #000 url(https://i.imgur.com/D0T2X7L.png) no-repeat;
-  background-size: cover
 }
 
 .component-wrapper:nth-child(5) .row.container {
@@ -4081,25 +4071,6 @@ span.ui-search-item__group__element.shops__items-group-details.ui-search-install
   }
 }
 
-.mshops-recommendations-wrapper .ui-item .ui-item__content .ui-item__price-block:after,.ui-search-item__group--price:after,.ui-recommendations-card__title:after {
-  content: "Comprar";
-  border: 1px solid #41444b;
-  background: #fff;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 15px;
-  border-radius: 5px !important;
-  font-weight: 500;
-  position: unset !important;
-  width: 100%;
-  transition: .2s linear;
-  text-transform: uppercase;
-  display: block;
-  font: normal normal bold 13px/19px 'Jost';
-  letter-spacing: 0;
-  color: #41444b
-}
-
 @media(min-width: 1026px) {
   .mshops-recommendations-wrapper .ui-item .ui-item__content .ui-item__price-block:after,.ui-search-item__group--price:after,.ui-recommendations-card__title:after {
       color:#41444b !important;
@@ -4136,17 +4107,6 @@ span.ui-item__discount-text,.shops__ui-main .shops__cardStyles .shops__price-dis
   font-size: 13px;
   line-height: 13px;
   font-weight: 100
-}
-
-p.ui-search-item__shipping.ui-search-item__shipping--free.shops__item-shipping-free {
-  background: #1b7822 !important;
-  border-radius: 5px !important;
-  font-size: 13px;
-  line-height: 13px;
-  font-weight: 100;
-  position: absolute;
-  bottom: 34rem;
-  left: 0
 }
 
 @media screen and (max-width: 1025px) {
@@ -4204,15 +4164,6 @@ main .ui-pdp {
   .nav-button__container.open-menu svg path {
       stroke:#000 !important
   }
-}
-
-.ui-search-layout--gallery .ui-search-result .ui-search-item__group:last-child, .ui-search-layout--grid .ui-search-result .ui-search-item__group:last-child {
-    position: absolute!important;
-    top: 10px !important;
-    left: 80%!important;
-    align-items: center!important;
-    display: block !important;
-    max-height: 25px!important;
 }
 
 .ui-search-price.ui-search-price--size-medium.shops__price {
@@ -7877,29 +7828,6 @@ button.andes-carousel-snapped__control:hover {
   }
 }
 
-.mshops-recommendations-wrapper .ui-item .ui-item__content .ui-item__price-block:after {
-  content: "Comprar";
-  border: 1px solid #1b7822;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 15px;
-  border-radius: 5px !important;
-  font-weight: 500;
-  position: unset !important;
-  width: 100%;
-  transition: .2s linear;
-  text-transform: uppercase
-}
-
-@media(min-width: 1026px) {
-  .mshops-recommendations-wrapper .ui-item .ui-item__content .ui-item__price-block:after {
-      background:#fff;
-      color: #1b7822 !important;
-      font-size: 13px !important;
-      padding: 10px
-  }
-}
-
 @media(max-width: 1025px) {
   .mshops-recommendations-wrapper .ui-item .ui-item__content .ui-item__price-block:after {
       background:#1b7822;
@@ -7939,7 +7867,7 @@ button.andes-carousel-snapped__control:hover {
 
 .component-wrapper:nth-child(5) {
   display: block !important;
-  background: #000 url(https://i.imgur.com/ZLouR2H.png) no-repeat;
+  background: #000 url(https://i.imgur.com/EKmoTUd.png) no-repeat;
   background-size: cover
 }
 
@@ -8416,12 +8344,11 @@ span.ui-search-item__group__element.shops__items-group-details.ui-search-install
   display: block;
   font: normal normal bold 13px/19px 'Jost';
   letter-spacing: 0;
-  color: #41444b
 }
 
 @media(min-width: 1026px) {
   .mshops-recommendations-wrapper .ui-item .ui-item__content .ui-item__price-block:after,.ui-search-item__group--price:after,.ui-recommendations-card__title:after {
-      color:#41444b !important;
+      color: #042D5A !important;
       font-size: 13px !important;
       padding: 10px;
       margin-bottom: 2px
@@ -8455,17 +8382,6 @@ span.ui-item__discount-text,.shops__ui-main .shops__cardStyles .shops__price-dis
   font-size: 13px;
   line-height: 13px;
   font-weight: 100
-}
-
-p.ui-search-item__shipping.ui-search-item__shipping--free.shops__item-shipping-free {
-  background: #1b7822 !important;
-  border-radius: 5px !important;
-  font-size: 13px;
-  line-height: 13px;
-  font-weight: 100;
-  position: absolute;
-  bottom: 34rem;
-  left: 0
 }
 
 @media screen and (max-width: 1025px) {
@@ -8524,16 +8440,6 @@ main .ui-pdp {
       stroke:#000 !important
   }
 }
-
-.ui-search-layout--gallery .ui-search-result .ui-search-item__group:last-child, .ui-search-layout--grid .ui-search-result .ui-search-item__group:last-child {
-    position: absolute!important;
-    top: 10px !important;
-    left: 80%!important;
-    align-items: center!important;
-    display: block !important;
-    max-height: 25px!important;
-}
-
 .ui-search-price.ui-search-price--size-medium.shops__price {
   min-height: 46px;
 }
@@ -8547,4 +8453,23 @@ main .ui-pdp {
   background-color: #FFF;
   padding: 10px;
   border-radius: 5px;
+}
+
+.ui-item .ui-item__shipping.ui-item__shipping-free {
+  position: absolute;
+  left: auto;
+  right: 0 !important
+}
+
+.ui-search-layout--grid .ui-search-result .ui-search-item__group.ui-search-item__group--shipping {
+  position: absolute;
+  left: 13px;
+  max-height: 24px !important;
+  top: 245px !important;
+}
+
+@media(max-width: 1025px) {
+  .ui-search-item__group__element--shipping {
+      margin-top:10px
+  }
 }
