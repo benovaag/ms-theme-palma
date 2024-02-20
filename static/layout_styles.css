@@ -8473,3 +8473,8 @@ main .ui-pdp {
       margin-top:10px
   }
 }
+
+.carousel__container .carousel__container-body .carousel__item .carousel__item-image-default img {
+    height: 100% !important;
+    object-fit: cover !important;
+}
